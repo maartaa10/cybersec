@@ -1,0 +1,65 @@
+/* eie.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  text-align: left;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label,
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.cesar-code-container {
+  margin-top: 40px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Nueva regla para estilizar el logo */
+.logo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px; /* Ajusta según sea necesario */
+  text-align: center;
+}
